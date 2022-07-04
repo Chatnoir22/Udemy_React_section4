@@ -240,7 +240,7 @@
 // const fee = num || "金額が未設定です";
 // console.log(fee);
 
-// ||の本当の意味は「左側がfalseなら右側を返す」
+// &&の本当の意味は「左側がfalseなら右側を返す」
 const num2 = 100;
 const fee2 = num2 && "何か設定されました";
 console.log(fee2);
